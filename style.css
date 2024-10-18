@@ -1,0 +1,72 @@
+.main{
+    height: 600px;
+    width: 600px;
+    background-color: cadetblue;
+    border: 1px solid black;
+    border-radius: ;
+    margin-left: 30%;
+    margin-top: 5%;
+    
+    
+}
+h1{
+    height: 20px;
+    display: inline-block;
+    margin-left: 35%;
+}
+
+.game{
+    display: flex;
+    gap:10%;
+   
+}
+
+.player1,.player2{
+  height: 350px;
+  width:350px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 1.3rem;
+  padding: 2% 0% 0% 9%;
+  margin: 10% 3% 0% 2%;
+  
+}
+
+button{
+    height: 40px;
+    width: 140px;
+    background-color: green;
+    color: white;
+    margin: 5% 0% 0% 0%;
+    font-size: 1.3rem;
+    border-radius: 20%;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#toss{
+    margin-left: 25%;
+    margin-top: 5%;
+}
+button:disabled {
+    cursor: not-allowed; 
+    opacity: 0.5; 
+    pointer-events: none; 
+}
+
+button {
+    cursor: pointer; 
+}
+
+#restart{
+    height: 50px;
+    width: 180px;
+    background-color: green;
+    color: white;
+    margin: 5% 0% 0% 0%;
+    font-size: 1.3rem;
+    border-radius: 20%;
+    margin-left: 2%;
+}
